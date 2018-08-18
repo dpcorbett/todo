@@ -1,4 +1,4 @@
-// ./express-server/app.js
+// ./todo/app.js
 import express from 'express';
 import path from 'path';
 import bodyParser from 'body-parser';

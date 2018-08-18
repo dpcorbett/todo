@@ -1,0 +1,26 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Simple todo list app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpcorbett/todo.git"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "react",
+    "redux",
+    "mongo"
+  ],
+  "author": "Dave Corbett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpcorbett/todo/issues"
+  },
+  "homepage": "https://github.com/dpcorbett/todo#readme"
+}

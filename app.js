@@ -27,8 +27,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 const port = process.env.PORT || 3001;
 // connect to database
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/mern-todo-app', {
-  useMongoClient: true,
+mongoose.connect('mongodb://10.0.0.1/todo-app', {
+  useNewUrlParser: true
 });
 app.use('/api', todoRoutes);
 app.get('/', (req,res) => {
